@@ -29,11 +29,11 @@ gem 'coffee-script-source', '1.8.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :production, :test do
+group :development, :test do
   # Use sqlitse3 as the database for Active Record
   gem 'sqlite3'
 end
-group :development do
+group :production do
   gem 'rails_12factor'
   gem 'pg'
 end
