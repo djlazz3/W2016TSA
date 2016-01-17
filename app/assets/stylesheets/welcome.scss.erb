@@ -1,0 +1,78 @@
+::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+html, a:hover{
+  cursor: image-url("cursor1.png"), auto;
+}
+body {
+  background: image-url("sky.jpg"), image-url("2.jpg");
+
+  background-position:0px 2500px, top left;
+  background-repeat: no-repeat, no-repeat;
+}
+.container{
+  width: 40%;
+  background:transparent;
+  padding:20px;
+  margin:0 auto;
+  color: whitesmoke;
+  padding-bottom: 27%;
+}
+
+.predator{
+  position: absolute;
+  width: 481px;
+  height:243px;
+  margin-top:44%;
+  margin-left:5%;
+  background:image-url("predator.png");
+  z-index: -1;
+}
+.satellite{
+  position: absolute;
+  width: 519px;
+  height: 396px;
+  margin-left:70%;
+  background:image-url("sattelite.png");
+  z-index: -1;
+}
+.weather{
+  position: absolute;
+  width: 579px;
+  height: 277px;
+  margin-top:80%;
+  margin-left:70%;
+  background:image-url("weather.png");
+  z-index: -1;
+}
+.division1 {
+  height: 500px;
+  background-color: #262626;
+  opacity: 69;
+  z-index: -3;
+}
+.tempimg{
+  margin-top: 32px;
+  display:inline-block;
+  float:left;
+}
+.inline{
+  display:inline-block;
+  align-content: center;
+}
+#div1info{
+  float:left;
+  margin-top: 0.5%;
+  margin-left:10%;
+  width:40%;
+  font-size:17pt;
+  color: whitesmoke;
+}
+#div1{
+  margin-top: 2%;
+  float: left;
+  vertical-align: top;
+  margin-left:25%;
+  color: whitesmoke;
+}

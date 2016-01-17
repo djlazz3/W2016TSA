@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 1, C:/Users/bpadr_000/Documents/GitHub/W2016TSA/app/assets/stylesheets/welcome.scss.erb */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* line 5, C:/Users/bpadr_000/Documents/GitHub/W2016TSA/app/assets/stylesheets/welcome.scss.erb */
+html {
+  cursor: url(/assets/cursor-dbbd097d3ad73ec4c64e315fced309d5.png), auto;
+}
+
+/* line 8, C:/Users/bpadr_000/Documents/GitHub/W2016TSA/app/assets/stylesheets/welcome.scss.erb */
+body {
+  background: url(/assets/rocket2-c56c1ed6f36351c1ac5ba6d066aaa36d.JPG);
+}
+
+/* line 12, C:/Users/bpadr_000/Documents/GitHub/W2016TSA/app/assets/stylesheets/welcome.scss.erb */
+.container {
+  width: 600px;
+  background: coral;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* line 19, C:/Users/bpadr_000/Documents/GitHub/W2016TSA/app/assets/stylesheets/welcome.scss.erb */
+.predator {
+  position: fixed;
+  width: 480px;
+  height: 242px;
+  left: 0%;
+  top: 0%;
+  margin-top: 300px;
+  background: url(/assets/predator-aa6a0d38d54376f096282e38d14f49ff.png);
+  z-index: -1;
+}
